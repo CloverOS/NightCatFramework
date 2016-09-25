@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>北极星工作室接口文档-厦门软件职业技术学院</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control">
+    <meta name="renderer" content="webkit">
+    <meta property="qc:admins" content="1510264067615601166375">
+    <link rel="stylesheet" href="./Resources/reset.css">
+    <link rel="stylesheet" href="./Resources/index.css">
+    <link rel="stylesheet" href="./Resources/api.css">
+	<script src="./Resources/jquery-2.1.4.min.js" language="javascript"></script>
+	<script src="./Resources/Wiki.js" language="javascript"></script>
+</head>
+<body style="zoom: 1;">
+<header id="top" class="clearfix">
+    <div class="top">
+        <div class="logo">
+            <a href="./">
+                <img src="./Resources/logo.png">
+            </a>
+        </div>
+        <nav class="top-nav">
+            <ul class="top-nav-ul item clearfix">
+                <li><a class="" href="./index.html">首页</a></li>
+                <li><a class="" href="./api.html">工具</a></li>
+                <li><a class=" active " href="./index.html">API文档</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div id="user" class="main">
+        <nav class="apileft">
+   			<h2 id="h_-2"><a id="title_-2" href="javascript:lookAll('-2')" class=" active  item">框架版本</a></h2>
+        </nav>
+    <div id="content" class="content">
+        <h2 id="action_name" class="page-title">{name}</h2>
+        <article class="doc">
+            <section class="one"><br />
+            	<p id="action_desc"></p><br />
+                <code id="action_url">
+                    
+                </code><br /><br />
+                <p id="action_method"></p><br />
+                <p>属性：</p>
+                <div class="can">
+                    <table>
+                        <tbody><tr>
+                            <th>名称</th>
+                            <th>属性值</th>
+                            <th>说明</th>
+
+                        </tr>
+                        <tr>
+                            <td>接口作者</td>
+                            <td id="action_author">JSON</td>
+                            <td>接口开发者</td>
+                        </tr>
+                        <tr>
+                            <td>数据格式</td>
+                            <td id="action_type">JSON</td>
+                            <td>调用接口发送的数据格式</td>
+                        </tr>
+                        <tr>
+                            <td>接口权限</td>
+                            <td id="action_power">普通接口</td>
+                            <td>如果为普通接口，则不需要权限</td>
+                        </tr>
+                        <tr>
+                            <td>权限序号</td>
+                            <td id="action_powerid">0</td>
+                            <td>接口权限序列</td>
+                        </tr>
+                        <tr>
+                            <td>修改时间</td>
+                            <td id="action_edit">0</td>
+                            <td>接口最后修改时间</td>
+                        </tr>
+                    </tbody></table>
+                </div><br />
+                <p>参数：</p>
+                <div class="can">
+                    <table>
+                        <tbody id="action_param">
+                    </tbody></table>
+                </div><br />
+                <p>返回：</p>
+                <div class="can">
+                    <table>
+                        <tbody id="action_return">
+                    </tbody></table>
+                </div><br />
+                <p>请求示例</p>
+                <pre>
+                	<code id="action_request">{code}</code>
+				</pre>
+				<p>返回示例</p>
+                <pre>
+                	<code id="action_returnexample">{code}</code>
+				</pre>
+            </section>
+        </article>
+    </div>
+</div>
+<footer id="footer">
+    <div class="slogan">
+        <span>北极星工作室接口文档-厦门软件技术学院(软件工程系)</span>
+    </div>
+    <div class="btm clearfix">
+        
+        <p class="shou-bei">CopyRight © 2014-2015 夜猫工作室 YMTeam.Cn, All Rights Reserved. 闽ICP备15001338号</p>
+    </div>
+</footer>
+<script type="text/javascript" src="./Resources/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" languae="javascript">
+		var action = getQueryString("action");
+		var xh = getQueryString("x");
+		if(action == null || action == "")
+			SetMenu();
+		else{
+			GetMenu(xh);
+			lookInfo(action);
+		}
+</script>
+</body></html>

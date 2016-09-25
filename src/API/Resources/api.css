@@ -1,0 +1,311 @@
+nav.apileft {
+  float: left;
+  width: 200px;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333333;
+}
+nav.apileft h2 {
+  text-align: left;
+  font-size: 14px;
+}
+nav.apileft h2:first-child {
+  border-top: none;
+}
+nav.apileft h2 a {
+  display: inline-block;
+  width: 100%;
+  padding-left: 50px;
+  line-height: 40px;
+  box-sizing: border-box;
+}
+nav.apileft h2 a:hover {
+  background-color: #eeeeee;
+  color: #333333;
+}
+nav.apileft h2 a .active {
+  background-color: #3286c1;
+  color: #fff;
+}
+nav.apileft .sub-nav {
+  display: none;
+  font-size: 12px;
+}
+nav.apileft .sub-nav a {
+  padding-left: 70px;
+}
+nav.apileft .sub-nav a:hover {
+  color: #3286c1;
+  background-color: #fafafa;
+}
+nav.apileft .active {
+  background-color: #3286c1;
+  color: #fff;
+  font-size: 15px;
+}
+.main {
+  max-width: 1440px;
+  min-width: 960px;
+  margin: 20px auto;
+  position: relative;
+  background: #fafafa;
+}
+.main .content {
+  margin-left: 200px;
+  background: #fff;
+  padding: 0 10px 0 10px;
+}
+.main .page-title {
+  line-height: 50px;
+  font-size: 16px;
+  color: #333;
+  margin-left: 10px;
+  padding-left: 20px;
+  background-color: #fafafa;
+}
+.main .doc {
+  line-height: 30px;
+  padding-left: 20px;
+  color: #666;
+}
+.main .doc h3 {
+  margin-top: 25px;
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+.main .doc p {
+  padding-left: 25px;
+}
+.main .doc .subp {
+  padding-left: 22px;
+}
+.main .doc a {
+  color: #465cb9;
+}
+.main .doc span.black {
+  color: #000;
+}
+.main .doc code {
+  background-color: #fef9bd;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 25px;
+  padding: 10px;
+  display: block;
+  font-family: Monaco, "Courier New", monospace;
+}
+.main .doc p.info {
+  background-color: #def0ff;
+  color: #515151;
+  margin-left: 25px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.main .doc p.sendp {
+  color: #000;
+  font-size: 16px;
+}
+.main .doc .can {
+  padding-left: 25px;
+}
+.main .doc .can table {
+  width: 100%;
+}
+.main .doc .can th {
+  padding: 0 20px;
+  border: 1px solid #ECECEC;
+  background-color: #ECECEC;
+  text-align: left;
+}
+.main .doc .can td {
+  border: 1px solid #ECECEC;
+  padding: 10px 20px;
+  text-align: left;
+}
+#faq .faqcon {
+  line-height: 30px;
+  color: #666;
+}
+#faq .faqcon h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+#faq .faqcon a {
+  color: #465cb9;
+}
+#faq .faqcon .faqq {
+  padding-left: 25px;
+}
+#faq .faqcon .faqq p {
+  background: url(/static/images4/product/qq.png) no-repeat;
+  font-size: 14px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+#aboutus .who {
+  text-align: center;
+}
+#aboutus .who p {
+  text-align: left;
+  text-indent: 2em;
+  color: #666;
+  line-height: 30px;
+  padding: 10px 15%;
+}
+#aboutus .come {
+  background: #eee;
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px 0;
+  line-height: 30px;
+}
+#aboutus .come h2 {
+  margin-bottom: 20px;
+}
+#aboutus .come .want_staff {
+  width: 22%;
+  margin-right: 4%;
+  float: left;
+}
+#aboutus .come .want_staff:last-child {
+  margin-right: 0;
+}
+#aboutus .come .want_staff h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+#aboutus .come .want_staff img {
+  margin: 10px auto;
+}
+#aboutus .come .want_staff p {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+#aboutus .come .hire {
+  display: inline-block;
+  width: 175px;
+  height: 43px;
+  line-height: 43px;
+  color: #fff;
+  font-size: 16px;
+  background: url(/static/images4/product/hrbg.png);
+}
+#aboutus .contact {
+  color: #fff;
+  height: 430px;
+  line-height: 20px;
+  background: url("/static/images4/product/address_bg.png") no-repeat center;
+}
+#aboutus #location {
+  width: 940px;
+  padding: 65px 0;
+  margin: 0 auto;
+}
+#aboutus #map {
+  float: left;
+  width: 440px;
+  height: 300px;
+}
+#aboutus #contactInfo {
+  width: 500px;
+  padding: 34px 30px;
+  margin-left: 440px;
+}
+#aboutus #contactInfo .ma {
+  display: inline-block;
+  margin-top: 40px;
+}
+#aboutus #contactInfo .title {
+  font-size: 36px;
+}
+#aboutus #contactInfo .erwei {
+  float: left;
+  padding-top: 40px;
+}
+#aboutus #contactInfo .img {
+  width: 91px;
+  padding-top: 0;
+}
+#demo #lanTab .active {
+  color: #3286c1;
+  background-color: rgba(250, 250, 250, 0);
+}
+#demo .divTab {
+  margin: 20px 0 0 10px;
+}
+#demo .divTab .page-title {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+#demo .divTab .page-title span {
+  color: #465cb9;
+}
+#demo .doc {
+  padding-left: 0;
+}
+#demo .doc code {
+  margin-left: 0;
+}
+#demo .fuzhidaima {
+  margin: 10px;
+  padding: 14px 57px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  background-color: #3399cc;
+}
+#demo .fuzhitip {
+  color: #39af75;
+}
+#contributecode {
+  color: #666;
+  line-height: 30px;
+}
+#contributecode h3 {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  padding-left: 20px;
+}
+#policy .doc .first {
+  margin-top: 20px;
+  padding-left: 0;
+  text-indent: 2em;
+}
+#policy .doc .subp {
+  padding-left: 60px;
+}
+#policy .doc .company {
+  text-align: right;
+  margin-top: 20px;
+}
+#footer{
+	clear:both;
+}
+.right{
+	text-align:center;
+	width: 75px;
+    height: 34px;
+    float: right;
+    margin-top: 5px;
+    font-size: 17px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #ff9a14;
+    border: none;
+    color: #fff;
+	-moz-user-select: none; /*火狐*/
+	-webkit-user-select: none; /*webkit浏览器*/
+	-ms-user-select: none; /*IE10*/
+	-khtml-user-select: none; /*早期浏览器*/
+	user-select: none;
+}

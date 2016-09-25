@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>北极星工作室接口文档-厦门软件职业技术学院</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control">
+    <meta name="renderer" content="webkit">
+    <meta property="qc:admins" content="1510264067615601166375">
+    <link rel="stylesheet" href="./Resources/reset.css">
+    <link rel="stylesheet" href="./Resources/index.css">
+    <link rel="stylesheet" href="./Resources/api.css">
+    <script type="text/javascript" src="./Resources/jquery-2.1.4.min.js"></script>
+    <script src="./Resources/Api.js"></script>
+</head>
+<body style="zoom: 1;" onload="getAllActionUrl();">
+
+<style>
+textarea
+{
+width:99.5%;
+height:400px;
+resize: none;
+}
+.input{
+	width: 250px;
+}
+</style>
+<header id="top" class="clearfix">
+    <div class="top">
+        <div class="logo">
+            <a href="./">
+                <img src="./Resources/logo.png">
+            </a>
+        </div>
+        <nav class="top-nav">
+            <ul class="top-nav-ul item clearfix">
+                <li><a class="" href="./index.html">首页</a></li>
+                <li><a class=" active " href="./api.html">工具</a></li>
+                <li><a class="" href="./index.html">API文档</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <div class="main">
+        <h2 class="page-title">API在线测试工具</h2>
+        <article class="doc">
+            <section class="one"><br />
+                <code>
+                    接口地址：
+                    <select id="action_url" onchange="selectAction();">
+                    	
+                    </select><br />
+                    数据类型：
+                    <select>
+                    	<option value="json">application/json</option>
+                    </select>
+                </code><br />
+                <p>请求数据：</p>
+                <div class="can">
+                    <textarea readonly id='Example_Request'></textarea>
+                </div><br />
+                <p>协议参数：</p>
+                <div class="can">
+                    <table>
+                        <tbody><tr>
+                            <th>参数名</th>
+                            <th>参数值</th>
+                            <th>说明</th>
+                            <th>类型</th>
+                        </tr>
+                        <tr>
+                            <td>Head</td>
+                            <td><input id="Head" type="text" class="input" /></td>
+                            <td>平台分配的ID</td>
+                            <td>String</td>
+                        </tr>
+                        <tr>
+                            <td>Key</td>
+                            <td><input id="Key" type="text" class="input" /></td>
+                            <td>平台分配的密钥</td>
+                            <td>String</td>
+                        </tr>
+                        <tr id="tr_Session">
+                            <td>Session</td>
+                            <td><input id="Session" type="text" class="input" /></td>
+                            <td>登陆时所返回的Session</td>
+                            <td>String</td>
+                        </tr>
+                        <tr>
+                            <td>Timestamp</td>
+                            <td><input id='Timestamp' type="text" class="input" readonly="readonly" value=''/></td>
+                            <td>当前时间</td>
+                            <td>String</td>
+                        </tr>
+                    </tbody></table>
+                </div><br />
+                <p>请求参数：</p>
+                <div class="can">
+                    <table>
+                        <tbody id="Param">
+                        	
+                        
+                    </tbody></table>
+                </div><br />
+                <p>返回数据：</p>
+                <div class="can">
+                    <textarea readonly id="Example_Response"></textarea>
+                </div><br />
+            </section>
+        </article>
+    </div>
+<footer id="footer">
+    <div class="slogan">
+        <span>北极星工作室接口文档-厦门软件技术学院(软件工程系)</span>
+    </div>
+    <div class="btm clearfix">
+        
+        <p class="shou-bei">CopyRight © 2014-2015 夜猫工作室 YMTeam.Cn, All Rights Reserved. 闽ICP备15001338号</p>
+    </div>
+</footer>
+</body></html>
